@@ -1,12 +1,31 @@
 ---
 layout: default
-title: ET-Jekyll Theme
+title: Home
 ---
 
-# Welcome to My Research Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Research Page</h1>
+    </header>
 
-Hi, I'm Eva, a researcher in [insert your field of research here]. 
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hi, I'm Eva, a researcher in Informatics and Computing at Northern Arizona University.</p>
+            <img src="{{ site.baseurl }}images\20231007_171522.jpg" alt="Eva's Picture">
+            <p>This is my personal website where I showcase my research, publications, and presentations. Feel free to explore my work!</p>
+        </section>
+    </main>
 
-![Eva's Picture](assets/images/20231007_171522.jpg)
-
-This is my personal website where I showcase my research, publications, and presentations. Feel free to explore my work!
+    <footer>
+        <p>Contact: <a href="mailto:eva@example.com">esd96@nau.edu</a></p>
+    </footer>
+</body>
+</html>
