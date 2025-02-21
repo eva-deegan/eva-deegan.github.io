@@ -4,4 +4,4 @@ title: ""
 permalink: /dataviz/
 ---
 
-<p>Data Viz page under construction</a></p>
+<p> Data Viz page under construction</p>
