@@ -1,9 +1,15 @@
 <h2 class="title">{{ site.title }}</h2>
 <nav>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  
     <ul class="nav-menu">
-      {% for item in site.nav %}
-        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-      {% endfor %}
+      <li><a href="/">About</a></li>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/cv/">CV</a></li>
+      <li><a href="/dataviz/">Data Visualization</a></li>
+      <li><a href="/contact/">Contact</a></li>
     </ul>
   </nav>
+  
   

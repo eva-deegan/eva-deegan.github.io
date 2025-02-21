@@ -77,35 +77,73 @@ body {
     $NAVIGATION MENU
 **************************************/
 
+
+/* Navigation Styling */
 nav {
-  background-color: #fffff8; /* Dark background */
-  padding: 10px 0;
-}
-
-.nav-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; /* Makes items display in a row */
-  justify-content: center; /* Centers the menu */
-}
-
-.nav-menu li {
-  margin: 0 15px; /* Adds spacing between tabs */
-}
-
-.nav-menu a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 10px 15px;
-  transition: 0.3s;
-}
-
-.nav-menu a:hover {
-  background-color: #f0f0f0; /* Darker on hover */
-  border-radius: 5px;
-}
+    background-color: #fffff8; /* Matches page background */
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-menu li {
+    margin: 0 15px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  /* Mobile Menu */
+  .menu-toggle {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  @media (max-width: 850px) {
+    .menu-icon {
+      display: block;
+      text-align: right;
+      padding: 15px;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .menu-toggle:checked + .nav-menu {
+      display: flex;
+    }
+  
+    .nav-menu li {
+      margin: 10px 0;
+    }
+  }
+  
 
 /**************************************
     $DEFAULT ELEMENTS
