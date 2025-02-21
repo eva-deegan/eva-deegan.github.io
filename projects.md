@@ -15,7 +15,7 @@ permalink: /projects/
     <div class="project-images">
       <img src="/images/1ceara.jpg" alt="Fieldwork in Aquatic Research">
       <img src="/images/1lake.HEIC" alt="Lake Sampling">
-      <img src="/images/1underlab.JPG" alt="Laboratory Experiment">
+      <img src="/images/1randi.HEIC" alt="UNDERC with Randi Notte">
     </div>
     <a href="/projects/aquatic-ecology/" class="project-link">Read More →</a>
   </div>
@@ -27,7 +27,7 @@ permalink: /projects/
     <div class="project-images">
       <img src="/images/2firecrew.jpg" alt="Fire Crew in the Field">
       <img src="/images/2fireplot.jpg" alt="Fire Plot Analysis">
-      <img src="/images/2fuels.jpg" alt="Fuel Load Study">
+      <img src="/images/2field.jpg" alt="Fire Ecology Fieldwork">
     </div>
     <a href="/projects/fire-ecology/" class="project-link">Read More →</a>
   </div>
@@ -39,7 +39,7 @@ permalink: /projects/
     <div class="project-images">
       <img src="/images/3grass.jpg" alt="Grassland Study">
       <img src="/images/3mountains.jpg" alt="Mountain Grassland Habitat">
-      <img src="/images/3tonto.jpg" alt="Field Sampling in Tonto National Forest">
+      <img src="/images/3nau.jpg" alt="Research at NAU">
     </div>
     <a href="/projects/grass-modeling/" class="project-link">Read More →</a>
   </div>
