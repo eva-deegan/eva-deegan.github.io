@@ -15,7 +15,11 @@ Using Bayesian statistical methods to model climate-based distributions of C3 an
 - R programming  
 - Climate modeling  
 
-🖼️ **Images from the project:**  
-<img src="/images/grass-1.jpg" alt="Grassland Study" width="70%">
-<img src="/images/grass-2.jpg" alt="Bayesian Data Model" width="70%">
-<img src="/images/grass-3.jpg" alt="Climate & Grass Distribution" width="70%">
+🖼️ **Project Images**  
+<div class="image-grid">
+  <img src="/images/3fresno.jpg" alt="Grassland in Fresno">
+  <img src="/images/3grass.jpg" alt="Grassland Species Distribution">
+  <img src="/images/3mountains.jpg" alt="Mountain Grassland Habitat">
+  <img src="/images/3nau.jpg" alt="Research at NAU">
+  <img src="/images/3tonto.jpg" alt="Field Sampling in Tonto National Forest">
+</div>

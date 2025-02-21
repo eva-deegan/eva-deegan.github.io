@@ -15,7 +15,14 @@ This research focused on modeling carbon cycles in freshwater ecosystems using f
 - GIS mapping  
 - Statistical modeling  
 
-🖼️ **Images from the project:**  
-<img src="/images/aquatic-1.jpg" alt="Aquatic Sampling" width="70%">
-<img src="/images/aquatic-2.jpg" alt="Data Analysis" width="70%">
-<img src="/images/aquatic-3.jpg" alt="Carbon Flux Model" width="70%">
+🖼️ **Project Images**  
+<div class="image-grid">
+  <img src="/images/1ceara.jpg" alt="Fieldwork">
+  <img src="/images/1cosjam.jpg" alt="Conference Poster">
+  <img src="/images/1joneslab.HEIC" alt="Lab Work">
+  <img src="/images/1lake.HEIC" alt="Lake Sampling">
+  <img src="/images/1poster.jpg" alt="Poster Presentation">
+  <img src="/images/1randi.HEIC" alt="Field Study">
+  <img src="/images/1underc.HEIC" alt="Research Team">
+  <img src="/images/1underlab.JPG" alt="Laboratory Experiment">
+</div>
