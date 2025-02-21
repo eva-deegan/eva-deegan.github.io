@@ -33,3 +33,15 @@ future: false
 exclude:
 - README.md
 - LICENSE.md
+
+nav:
+  - title: "About"
+    url: "/about"
+  - title: "Projects"
+    url: "/projects"
+  - title: "CV"
+    url: "/cv"
+  - title: "Data Visualization"
+    url: "/dataviz"
+  - title: "Contact"
+    url: "/contact"
