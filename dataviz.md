@@ -3,5 +3,5 @@ layout: default
 title: ""
 permalink: /dataviz/
 ---
-# About Me
-Write something about yourself here!
+
+<p>Data Viz page under construction</a></p>

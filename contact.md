@@ -3,5 +3,5 @@ layout: default
 title: ""
 permalink: /contact/
 ---
-# About Me
-Write something about yourself here!
+
+<p>Contact: <a href="mailto:eva@example.com">esd96@nau.edu</a></p>
