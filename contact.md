@@ -1,6 +1,6 @@
 ---
 layout: default
-title: contact
+title: ""
 permalink: /contact/
 ---
 # About Me

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: dataviz
+title: ""
 permalink: /dataviz/
 ---
 # About Me
