@@ -1,7 +1,13 @@
 ---
 layout: default
-title: cv
+title: ""
 permalink: /cv/
 ---
-# About Me
-Write something about yourself here!
+
+# My CV
+
+<object data="/docs/Deegan_CV.pdf" type="application/pdf" width="100%" height="800px">
+  <p>Your browser does not support PDFs. 
+     <a href="/docs/cv.pdf">Download the CV instead.</a>
+  </p>
+</object>
