@@ -36,7 +36,7 @@ exclude:
 
 nav:
   - title: "About"
-    url: "/about"
+    url: "/"
   - title: "Projects"
     url: "/projects"
   - title: "CV"
