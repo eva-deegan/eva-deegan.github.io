@@ -53,8 +53,13 @@ In **December 2022**, I presented this research at the **American Geophysical Un
 ## Project Images  
 <div class="image-grid">
   <img src="/images/1ceara.jpg" alt="Fieldwork at UNDERC">
+  <img src="/images/1cosjam.jpg" alt="Conference Poster">
+  <img src="/images/1joneslab.HEIC" alt="Lab Work">
   <img src="/images/1lake.HEIC" alt="Lake Sampling">
-  <img src="/images/1poster.jpg" alt="AGU Presentation">
+  <img src="/images/1poster.jpg" alt="AGU Conference Presentation">
+  <img src="/images/1randi.HEIC" alt="Field Study Team">
+  <img src="/images/1underc.HEIC" alt="Research at UNDERC">
+  <img src="/images/1underlab.JPG" alt="Laboratory Experiment">
 </div>
 
 ---

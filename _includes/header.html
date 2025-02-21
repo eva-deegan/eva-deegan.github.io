@@ -1,8 +1,10 @@
 <h2 class="title">{{ site.title }}</h2>
 <nav>
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
-  
+  <div class="nav-container">
+    <a href="/" class="nav-logo">My Website</a> <!-- Change this to your site name -->
+    <button class="nav-toggle" aria-label="toggle navigation">
+      ☰
+    </button>
     <ul class="nav-menu">
       <li><a href="/">About</a></li>
       <li><a href="/projects/">Projects</a></li>
@@ -10,6 +12,8 @@
       <li><a href="/dataviz/">Data Visualization</a></li>
       <li><a href="/contact/">Contact</a></li>
     </ul>
-  </nav>
+  </div>
+</nav>
+
   
   

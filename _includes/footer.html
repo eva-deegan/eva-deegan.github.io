@@ -1,3 +1,15 @@
 
 <div class="bottom-footer">
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleButton = document.querySelector(".nav-toggle");
+      const navContainer = document.querySelector(".nav-container");
+  
+      toggleButton.addEventListener("click", function () {
+        navContainer.classList.toggle("active");
+      });
+    });
+  </script>
+  
