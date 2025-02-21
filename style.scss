@@ -220,21 +220,23 @@ a, a:visited {
     transform: scale(1.1);
   }
   
-  /* Read More Link */
-  .project-link {
+ /* Read More Link - Light Styling */
+.project-link {
     display: inline-block;
     padding: 8px 12px;
     margin-top: 10px;
-    background: #333;
-    color: white;
+    background: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for contrast */
     text-decoration: none;
     border-radius: 5px;
+    border: 1px solid #ddd; /* Subtle border */
     transition: 0.3s;
   }
   
   .project-link:hover {
-    background: #555;
+    background: #e0e0e0; /* Slightly darker on hover */
   }
+  
   
   /* Restrict image size */
 .home-image {
