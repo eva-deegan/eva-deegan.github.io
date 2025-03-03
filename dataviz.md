@@ -38,7 +38,7 @@ permalink: /dataviz/
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/dallaschools.jpg" alt="Education Disparities Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/dallasschools.jpg" alt="Education Disparities Visualization">
   <figcaption>America’s Education Race: Visualizing disparities in the Dallas school system.</figcaption>
 </figure>
 
@@ -46,17 +46,17 @@ permalink: /dataviz/
 
 <!-- Classmates' Work -->
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/classmatex2.jpg" alt="COVID-19 and Atmosphere">
+  <img src="{{ site.baseurl }}/images/dataviz/classmateex2.jpg" alt="COVID-19 and Atmosphere">
   <figcaption><strong>Classmate’s Work:</strong> COVID-19’s impact on atmospheric pollution.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/classmatex3.jpg" alt="Coral Conservation Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/classmateex3.jpg" alt="Coral Conservation Visualization">
   <figcaption><strong>Classmate’s Work:</strong> Coral bleaching and conservation trends.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/classmatesx1.jpg" alt="Overfishing Crisis Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/classmatesex1.jpg" alt="Overfishing Crisis Visualization">
   <figcaption><strong>Classmate’s Work:</strong> The South China Sea’s overfishing crisis.</figcaption>
 </figure>
 
