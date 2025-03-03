@@ -124,10 +124,10 @@ nav ul li a:hover {
 **************************************/
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Makes the projects stack vertically */
+  gap: 30px; /* Adds spacing between project cards */
+  align-items: center; /* Centers the cards */
 }
 
 .project-card {
@@ -146,13 +146,14 @@ nav ul li a:hover {
 .project-images {
   display: flex; /* Arrange images in a row */
   justify-content: center; /* Center them horizontally */
-  gap: 10px; /* Add space between images */
+  gap: 15px; /* Add space between images */
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .project-images img {
-  width: 30%; /* Ensures each image takes up about 1/3 of the card width */
-  height: 150px; /* Keeps images uniform */
+  width: 32%; /* Ensures each image takes up about 1/3 of the card width */
+  height: auto; /* Keeps images uniform */
+  max-height: 250px; /* Prevents images from being too large */
   object-fit: cover; /* Prevents distortion, crops instead */
   border-radius: 8px; /* Optional: makes corners rounded */
 }
