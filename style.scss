@@ -148,9 +148,12 @@ nav {
 .image-grid img {
   width: 100%;
   max-width: 300px;
+  height: auto; /* Ensures aspect ratio is maintained */
   border-radius: 5px;
   transition: transform 0.3s;
+  object-fit: contain; /* Prevents stretching if aspect ratios vary */
 }
+
 
 .image-grid img:hover {
   transform: scale(1.05);
