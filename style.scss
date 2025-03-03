@@ -142,3 +142,11 @@ nav {
 }
 
 
+img {
+  max-width: 100%; /* Prevents images from overflowing */
+  height: auto; /* Keeps aspect ratio */
+  display: block; /* Prevents inline spacing issues */
+  margin: 0 auto; /* Centers the image */
+  max-height: 500px; /* Limits the height */
+  object-fit: contain; /* Ensures the whole image is visible */
+}
