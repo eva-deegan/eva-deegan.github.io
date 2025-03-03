@@ -28,17 +28,17 @@ permalink: /dataviz/
 
 <!-- Your Work -->
 <figure>
-  <img src="{{ site.baseurl }}/images/algae.jpg" alt="Poisoned Waters Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/algae.jpg" alt="Poisoned Waters Visualization">
   <figcaption>Poisoned Waters: A data visualization on water pollution.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/socialmedia.jpg" alt="Social Media Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/socialmedia.jpg" alt="Social Media Visualization">
   <figcaption>Social Media & Science: How social media impacts mental health - an interactive data visualization.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/dallaschools.jpg" alt="Education Disparities Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/dallaschools.jpg" alt="Education Disparities Visualization">
   <figcaption>America’s Education Race: Visualizing disparities in the Dallas school system.</figcaption>
 </figure>
 
@@ -46,17 +46,17 @@ permalink: /dataviz/
 
 <!-- Classmates' Work -->
 <figure>
-  <img src="{{ site.baseurl }}/images/classmatex2.jpg" alt="COVID-19 and Atmosphere">
+  <img src="{{ site.baseurl }}/images/dataviz/classmatex2.jpg" alt="COVID-19 and Atmosphere">
   <figcaption><strong>Classmate’s Work:</strong> COVID-19’s impact on atmospheric pollution.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/classmatex3.jpg" alt="Coral Conservation Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/classmatex3.jpg" alt="Coral Conservation Visualization">
   <figcaption><strong>Classmate’s Work:</strong> Coral bleaching and conservation trends.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/classmatesx1.jpg" alt="Overfishing Crisis Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/classmatesx1.jpg" alt="Overfishing Crisis Visualization">
   <figcaption><strong>Classmate’s Work:</strong> The South China Sea’s overfishing crisis.</figcaption>
 </figure>
 
