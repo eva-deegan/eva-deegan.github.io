@@ -45,3 +45,6 @@ nav:
     url: "/dataviz"
   - title: "Contact"
     url: "/contact"
+
+include:
+  - docs
