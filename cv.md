@@ -4,7 +4,4 @@ title: ""
 permalink: /cv/
 ---
 
-
-
-<iframe src="docs/Deegan_CV.pdf" width="100%" height="600px"></iframe>
-
+<embed src="docs/Deegan_CV.pdf" type="application/pdf" width="100%" height="600px">
