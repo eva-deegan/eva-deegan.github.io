@@ -46,8 +46,6 @@ In **December 2022**, I presented this research at the **American Geophysical Un
 - Explored how **terrestrial dynamics influence lake carbon flux**.  
 - Engaged with experts in **ecology, hydrology, and climate modeling**.  
 
- [View AGU Presentation (Link)](#) *(Optional: Add a PDF or slide deck link)*  
-
 ---
 
 ## Project Images  
