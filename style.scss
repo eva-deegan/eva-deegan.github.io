@@ -151,7 +151,8 @@ nav {
   height: auto; /* Ensures aspect ratio is maintained */
   border-radius: 5px;
   transition: transform 0.3s;
-  object-fit: contain; /* Prevents stretching if aspect ratios vary */
+  max-height: 400px; /* Prevents excessive height */
+  object-fit: cover; /* Crops the image instead of stretching */
 }
 
 
