@@ -4,6 +4,6 @@ title: ""
 permalink: /cv/
 ---
 
-<p>CV being updated</a></p>
 
 
+<a href="docs/Deegan_CV.pdf">CV</a>
