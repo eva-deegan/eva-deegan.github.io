@@ -143,6 +143,22 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
+.project-images {
+  display: flex; /* Arrange images in a row */
+  justify-content: center; /* Center them horizontally */
+  gap: 10px; /* Add space between images */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.project-images img {
+  width: 30%; /* Ensures each image takes up about 1/3 of the card width */
+  height: 150px; /* Keeps images uniform */
+  object-fit: cover; /* Prevents distortion, crops instead */
+  border-radius: 8px; /* Optional: makes corners rounded */
+}
+
+
+
 /**************************************
     $IMAGE GRID
 **************************************/
