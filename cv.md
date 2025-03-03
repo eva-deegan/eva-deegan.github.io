@@ -6,4 +6,5 @@ permalink: /cv/
 
 
 
-<a href="docs/Deegan_CV.pdf">CV</a>
+<iframe src="docs/Deegan_CV.pdf" width="100%" height="600px"></iframe>
+
