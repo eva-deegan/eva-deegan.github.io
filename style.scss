@@ -146,12 +146,12 @@ nav {
 }
 
 .image-grid img {
-  width: 100%;
-  max-width: 300px;
-  height: auto; /* Ensures aspect ratio is maintained */
+  width: auto; /* Don't force width to 100% */
+  max-width: 300px; /* Limit size */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 5px;
   transition: transform 0.3s;
-  max-height: 400px; /* Prevents excessive height */
-  object-fit: cover; /* Crops the image instead of stretching */
+  object-fit: contain; /* Ensures proper resizing */
 }
+
 
