@@ -28,36 +28,44 @@ permalink: /dataviz/
 
 <!-- Your Work -->
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/algae.jpg" alt="Poisoned Waters Visualization">
-  <figcaption>Poisoned Waters: A data visualization on water pollution.</figcaption>
-</figure>
+  <img src="{{ site.baseurl }}/images/dataviz/ASSIGN1_DeeE_SnyM (1)_Page_1.jpg">
 
-<figure>
-  <img src="{{ site.baseurl }}/images/dataviz/socialmedia.jpg" alt="Social Media Visualization">
-  <figcaption>Social Media & Science: How social media impacts mental health - an interactive data visualization.</figcaption>
+  <figcaption>Poisoned Waters: A data visualization on water pollution, by Eva Deegan and Lauren Fricker.</figcaption>
 </figure>
 
 <figure>
   <img src="{{ site.baseurl }}/images/dataviz/dallasschools.jpg" alt="Education Disparities Visualization">
-  <figcaption>America’s Education Race: Visualizing disparities in the Dallas school system.</figcaption>
+
+  <figcaption>America’s Education Race: Visualizing disparities in the Dallas school system, by Eva Deegan and Malachi Snyder.</figcaption>
 </figure>
+
+<figure>
+  <img src="{{ site.baseurl }}/images/dataviz/Poster_v3.jpg">
+  <figcaption>Social Media & Science: How social media impacts mental health - an interactive data visualization, by Eva Deegan and William Ventura-Chavez.</figcaption>
+</figure>
+
 
 <p>I was so inspired by my classmates' environmental data visualizations too. Here are some examples:</p>
 
 <!-- Classmates' Work -->
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/classmateex2.jpg" alt="COVID-19 and Atmosphere">
-  <figcaption><strong>Classmate’s Work:</strong> COVID-19’s impact on atmospheric pollution.</figcaption>
+  <img src="{{ site.baseurl }}/images/dataviz/Project2final.jpg">
+  <figcaption><strong>Classmate’s Work:</strong> COVID-19’s impact on atmospheric pollution, by Yi Suhyeon and Alissa Svoboda.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/classmateex3.jpg" alt="Coral Conservation Visualization">
-  <figcaption><strong>Classmate’s Work:</strong> Coral bleaching and conservation trends.</figcaption>
+  <img src="{{ site.baseurl }}/images/dataviz/CoralDataViz.jpg">
+  <figcaption><strong>Classmate’s Work:</strong> Coral bleaching and conservation trends, by Joseph Neus and Daniela Mantica .</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/classmatesex1.jpg" alt="Overfishing Crisis Visualization">
-  <figcaption><strong>Classmate’s Work:</strong> The South China Sea’s overfishing crisis.</figcaption>
+  <img src="{{ site.baseurl }}/images/dataviz/ASSIGN2_GrisP_WhelC.jpg">
+  <figcaption><strong>Classmate’s Work:</strong> The South China Sea’s overfishing crisis, by Callie Whelan and Peter Grissom.</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ site.baseurl }}/images/dataviz/ASSIGN2_HuoT_SnydM.jpg">
+  <figcaption><strong>Classmate’s Work:</strong> The World in Waste, by Malachi Snyder and Tristan Huo.</figcaption>
 </figure>
 
 <!-- CSS to Style Images and Captions -->
