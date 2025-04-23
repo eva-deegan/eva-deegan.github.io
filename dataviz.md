@@ -28,13 +28,13 @@ permalink: /dataviz/
 
 <!-- Your Work -->
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/ASSIGN1_DeeE_SnyM (1)_Page_1.jpg">
+  <img src="{{ site.baseurl }}/images/dataviz/images\dataviz\ASSIGN2_DeegE_FrickL.jpg">
 
   <figcaption>Poisoned Waters: A data visualization on water pollution, by Eva Deegan and Lauren Fricker.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/dataviz/dallasschools.jpg" alt="Education Disparities Visualization">
+  <img src="{{ site.baseurl }}/images/dataviz/ASSIGN1_DeeE_SnyM (1)_Page_1.jpg">
 
   <figcaption>America’s Education Race: Visualizing disparities in the Dallas school system, by Eva Deegan and Malachi Snyder.</figcaption>
 </figure>
