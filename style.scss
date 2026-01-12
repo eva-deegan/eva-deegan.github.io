@@ -4,6 +4,19 @@
 /**************************************
     $ CUSTOM TYPEFACE
 **************************************/
+/* $accent-color: #556b2f; /* Dark Olive Green */
+/* OR */
+ $accent-color: #c05838; 
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
 
 /**************************************
     $CRITICAL CSS
@@ -107,14 +120,16 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 40px; /* Increase size */
-  font-weight: bold;
-  text-decoration: none;
-  color: black; /* Adjust if needed */
+  font-size: 1.1rem; /* Much more standard */
+  font-weight: 600;  /* Semi-bold */
+  text-transform: uppercase; /* Optional: makes it look neat */
+  letter-spacing: 1px; /* Adds breathing room */
+  color: #333;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  text-decoration: none; /* Remove underline */
+  color: #556b2f; /* Dark Olive Green (see suggestion #2) */
 }
 
 
@@ -130,11 +145,12 @@ nav ul li a:hover {
 }
 
 .project-card {
-  background: #f8f8f8;
+  background: #ffffff; /* Crisp white */
+  border: 1px solid #e0e0e0; /* Subtle border definition */
   border-radius: 8px;
-  padding: 15px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  padding: 20px; /* A bit more breathing room */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Softer, modern shadow */
+  text-align: left; /* Text is usually easier to read aligned left than centered */
 }
 
 .project-card h2 {
@@ -157,7 +173,16 @@ nav ul li a:hover {
   border-radius: 8px; /* Optional: makes corners rounded */
 }
 
-
+/* This is the NEW part that fixes the phone view */
+@media (max-width: 600px) {
+  .project-images {
+    flex-direction: column; /* Stack them vertically */
+  }
+  
+  .project-images img {
+    width: 100%; /* Make them full width on phone */
+    margin-bottom: 10px; /* Add a little space between the stacked images */
+  }
 
 /**************************************
     $IMAGE GRID
