@@ -1,12 +1,12 @@
----
----
 
 /**************************************
     $ CUSTOM TYPEFACE
 **************************************/
-/* $accent-color: #556b2f; /* Dark Olive Green */
-/* OR */
- $accent-color: #c05838; 
+// Option 1: Green
+// $accent-color: #556b2f;
+
+// Option 2: Orange
+$accent-color: #c05838;
 
 a {
   color: $accent-color;
@@ -128,8 +128,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: none; /* Remove underline */
-  color: #556b2f; /* Dark Olive Green (see suggestion #2) */
+  text-decoration: none; 
+  color: $accent-color; /* CHANGED from #556b2f to your variable */
 }
 
 
@@ -183,6 +183,7 @@ nav ul li a:hover {
     width: 100%; /* Make them full width on phone */
     margin-bottom: 10px; /* Add a little space between the stacked images */
   }
+}
 
 /**************************************
     $IMAGE GRID
