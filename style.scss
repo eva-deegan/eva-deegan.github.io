@@ -27,6 +27,7 @@ a:hover {
 * {
   text-rendering: optimizeLegibility;
   font-kerning: auto;
+  box-sizing: border-box;
 }
 
 html {
