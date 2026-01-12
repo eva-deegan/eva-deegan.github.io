@@ -86,28 +86,6 @@ nav {
   cursor: pointer;
 }
 
-@media (max-width: 850px) {
-  .nav-toggle {
-    display: block;
-  }
-
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    background-color: #fffff8;
-    border-top: 1px solid #ccc;
-    padding: 10px 0;
-    text-align: center;
-  }
-
-  .nav-container.active .nav-menu {
-    display: flex;
-  }
-}
 
 nav ul {
   list-style-type: none;
@@ -175,17 +153,6 @@ nav ul li a:hover {
   border-radius: 8px; /* Optional: makes corners rounded */
 }
 
-/* This is the NEW part that fixes the phone view */
-@media (max-width: 600px) {
-  .project-images {
-    flex-direction: column; /* Stack them vertically */
-  }
-  
-  .project-images img {
-    width: 100%; /* Make them full width on phone */
-    margin-bottom: 10px; /* Add a little space between the stacked images */
-  }
-}
 
 /**************************************
     $IMAGE GRID
@@ -217,4 +184,67 @@ img {
   margin: 0 auto; /* Centers the image */
   max-height: 500px; /* Limits the height */
   object-fit: contain; /* Ensures the whole image is visible */
+}
+
+
+/* --- MOBILE REPAIR KIT --- */
+@media (max-width: 850px) {
+
+  /* 1. Fix the Header & Spacing */
+  body {
+    font-size: 1.1rem; /* Shrink text from 1.4rem to readable mobile size */
+    padding: 1rem 15px 0 15px; /* Remove the huge 5rem top gap */
+  }
+
+  /* 2. Fix the Menu (Vertical Stack instead of broken Toggle) */
+  nav {
+    flex-direction: column; /* Stack logo and links vertically */
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .nav-toggle {
+    display: none; /* Hide the hamburger button since we aren't using JS */
+  }
+
+  .nav-menu {
+    display: flex; /* Force the menu to show */
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    position: static; /* Put it back in the normal flow */
+    background: transparent;
+    border: none;
+  }
+
+  /* Reset the specific UL/LI styles for mobile */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin-right: 0; /* Remove side spacing */
+    margin-bottom: 10px; /* Add bottom spacing */
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 1rem; /* Make menu links smaller */
+    display: block;
+    padding: 10px;
+  }
+
+  /* 3. Fix Project Cards */
+  .project-images {
+    flex-direction: column;
+  }
+  
+  .project-images img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
